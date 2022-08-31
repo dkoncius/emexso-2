@@ -1,0 +1,85 @@
+// Header
+@media (max-width: 768px){
+    header {
+        flex-direction: column;
+        text-align: center;
+
+        .calls {
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// Nav
+@media (max-width: 400px){
+   nav {
+    flex-direction: column;
+    line-height: 30px;
+   }
+}
+@media (max-width: 768px){
+   nav .links {
+    display: none;
+   }
+}
+
+// Section
+@media (max-width: 400px){
+    section {
+        text-align: center;
+    }
+
+    section .container .price {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .lists {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 768px){
+    section .container {
+        flex-direction: column !important;
+
+        .img1 {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    section .container .content {
+        flex: 2;
+    }
+}
+
+// About section
+@media (max-width: 768px){
+   #about-section {
+        .lists {
+            justify-content: center;
+        }
+
+        button {
+           display: block;
+           margin: auto;
+           margin-bottom: 50px;
+        }
+
+        .img2 {
+            margin: auto;
+        }
+   }
+}
+
+// General
+@media (max-width: 400px){
+    button {
+      width: 100%;
+    }
+}

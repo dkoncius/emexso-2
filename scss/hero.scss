@@ -1,0 +1,19 @@
+#hero-section {
+    background: #fbd7b5;
+
+    span {
+        font-family: $font2;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .img1 {
+        min-width: 300px;
+        min-height: 300px;
+        height: 100%;
+        flex: 1;
+        background: url("../assets/img1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

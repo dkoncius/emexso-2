@@ -1,0 +1,28 @@
+#about-section .container {
+    flex-direction: row-reverse;
+}
+
+.img2 {
+    min-width: 300px;
+    min-height: 300px;
+    height: 100%;
+    flex: 1;
+    background: url("../assets/img2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.lists {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    i {
+        color: $orange;
+    }
+
+    li {
+        font-weight: 500;
+        line-height: 30px;
+    }
+}

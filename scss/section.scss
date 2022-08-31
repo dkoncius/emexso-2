@@ -1,0 +1,27 @@
+section {
+    .container {
+        min-height: 500px;
+        @include top-style;
+        padding: 50px 30px;
+    }
+
+    .content {
+        flex: 1;
+        h5 {
+            color: $orange;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-family: $font2;
+            margin: 20px 0;
+        }
+
+        p {
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+    }
+}

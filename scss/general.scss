@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #0c2461;
+}
+
+body {
+    font-family: barlow;
+}
+
+hr {
+    width: 92%;
+    max-width: 1300px;
+    margin: auto;
+    border-color: skyblue;
+    opacity: 0.2;
+}
+
+button {
+    background: $orange;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+}
